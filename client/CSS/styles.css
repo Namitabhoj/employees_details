@@ -1,0 +1,169 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin:0;
+}
+
+:root{
+    --light-blue:#afdde6;
+    --blue:#0077b6;
+    --dark-blue:#03045e;
+}
+
+body{
+    background-color: var(--light-blue);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+form{
+    background-color: white;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+    box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.3);
+    margin: 25px;
+}
+
+form h2{
+    color: var(--dark-blue);
+}
+
+/* OPTIONS SECTION */
+
+.options{
+    display: flex;
+    margin: 1rem 0;
+}
+
+.contact__form label{
+    position: relative;
+    height: 200px;
+    width: 180px;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    margin: 1rem;
+}
+
+label img{
+    font-size: 40px;
+    color: var(--dark-blue);
+    padding: 0.5rem 1rem;
+    margin-bottom: 10px;
+    width: 200px;
+    height: 200px;
+}
+
+.options a{
+    text-align: center;
+    text-decoration: none;
+}
+
+.options h4{
+    color: var(--dark-blue);
+}
+
+.employee_container_request_form label, input , textarea, select{
+    display: block;
+    width: 100%;
+ }
+
+
+.employee_container_request_form label {
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-bottom: 7px;
+    color: var(--dark-blue);
+ }
+
+
+.employee_container_request_form_input{
+    box-sizing: border-box;
+    border: 1px solid var(--light-blue);
+    padding: 14px 20px;
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -o-border-radius: 5px;
+    -ms-border-radius: 5px;
+    font-size: 25px;
+}
+
+.employee_container_request_form button{
+    margin-top: 10px;
+    padding: 10px;
+    font-size: 20px;
+    background-color: white;
+    color: var(--dark-blue);
+    border: 2px solid var(--dark-blue);
+}
+
+.employee_container_request_form button:hover{
+    background-color:var(--dark-blue); 
+    color: white;;
+    border: 2px solid white;;
+}
+.search_continer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+    box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.3);
+    margin: 25px;
+}
+.search_class{
+    display: flex;
+    margin: 1rem 0;
+    box-sizing: border-box;
+    border: 1px solid var(--light-blue);
+    padding: 14px 20px;
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -o-border-radius: 5px;
+    -ms-border-radius: 5px;
+    font-size: 25px;
+}
+table {
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+table td, table th {
+    border: 1px solid #ddd;
+    padding: 8px;
+  }
+  
+table tr:nth-child(even){background-color: #f2f2f2;}
+  
+table tr:hover {background-color: #ddd;}
+  
+table th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: var(--dark-blue);
+    color: white;
+  }
+table a{
+    text-decoration: none;
+    padding: 10px;
+}
